@@ -1,0 +1,22 @@
+:root {
+    --blue: #3397DA;
+    --dark-blue: #4376b3;
+    --light-blue: #d7e9ff;
+    --yellow: #f5e856;
+    --bright-yellow: #fff046;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Almarai', sans-serif;
+}
+
+body {
+    background-color: var(--bright-yellow);
+}
+
+.container-flu{
+    background-color: black;
+}
