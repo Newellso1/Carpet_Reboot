@@ -15,8 +15,22 @@
 
 body {
     background-color: var(--bright-yellow);
+    font-family: 'Almarai', sans-serif;
 }
 
-.container-flu{
-    background-color: black;
+/* home styles */
+
+.home > .row:nth-child(1){
+    min-height: 200px;
+}
+
+.about-info {
+    min-height: 250px;
+    background-color: var(--blue);
+    margin-top: 20px;
+    border-radius: 0.5rem;
+}
+
+.about-info:nth-child(1) h3 {
+    font-style: italic;
 }
