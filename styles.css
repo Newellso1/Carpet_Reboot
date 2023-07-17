@@ -21,6 +21,12 @@ body {
     
 }
 
+.navbar-brand img {
+    height: 60px;
+    width: 60px;
+
+}
+
 /* home styles */
 
 .banner {
@@ -29,6 +35,7 @@ body {
     background-repeat: no-repeat;
     box-shadow: inset 0 0 50px rgba(0, 0, 0, 0.466);
     font-size: larger;
+    
 }
 
 
@@ -223,5 +230,11 @@ footer {
     .card-info {
         min-width: 150px;
         margin: 0 auto;
+    }
+
+    .navbar-brand img {
+        height: 100px;
+        width: 100px;
+    
     }
 }
